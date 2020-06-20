@@ -13,3 +13,7 @@ def repeat(string, number_of_repeats=2)
 	end
 	return final_string
 end
+
+def start_of_word(string, index)
+	return string[0,index]
+end
