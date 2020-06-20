@@ -17,3 +17,11 @@ end
 def start_of_word(string, index)
 	return string[0,index]
 end
+
+def first_word(string)
+	return string.split(" ").first
+end
+
+def titleize(string)
+	return string.split(" ").map(&:capitalize).join(" ")
+end
