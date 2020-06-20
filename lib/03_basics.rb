@@ -19,3 +19,7 @@ end
 def array_42(array_to_check)
 	return array_to_check.include?(42)
 end
+
+def magic_array(array)
+	return array.flatten.uniq.sort.delete_if { |x| x % 3 == 0}.map{ |e| e *= 2 }
+end
