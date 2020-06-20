@@ -11,3 +11,11 @@ def who_is_bigger(a, b, c)
 		end
 	end
 end
+
+def reverse_upcase_noLTA(string)
+	return string.reverse.upcase.gsub(/[LTA]/i, "")
+end
+
+def array_42(array_to_check)
+	return array_to_check.include?(42)
+end
